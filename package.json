@@ -1,0 +1,21 @@
+{
+  "name": "mocha-chai-api",
+  "version": "1.0.0",
+  "description": "API Testing with Mocha&Chai",
+  "main": "index.js",
+  "scripts": {
+    "test-api-win": "node ./node_modules/mocha/bin/mocha api/test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 180000",
+    "test-api": "./node_modules/mocha/bin/mocha api/test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 180000",
+    "reports": "open 'reports/mochawesome/mochawesome.html'"
+  },
+  "author": "Dudi Adikarya",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^7.0.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.2",
+    "request": "^2.88.0",
+    "should": "^13.2.3",
+    "supertest": "^3.1.0"
+  }
+}
