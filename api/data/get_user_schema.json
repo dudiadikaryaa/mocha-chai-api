@@ -1,0 +1,69 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "additionalProperties": true,
+    "required": [
+        "data",
+        "ad"
+    ],
+    "properties": {
+        "data": {
+            "$id": "#/properties/data",
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+                "id",
+                "email",
+                "first_name",
+                "last_name",
+                "avatar"
+            ],
+            "properties": {
+                "id": {
+                    "$id": "#/properties/data/properties/id",
+                    "type": "integer"
+                },
+                "email": {
+                    "$id": "#/properties/data/properties/email",
+                    "type": "string"
+                },
+                "first_name": {
+                    "$id": "#/properties/data/properties/first_name",
+                    "type": "string"
+                },
+                "last_name": {
+                    "$id": "#/properties/data/properties/last_name",
+                    "type": "string"
+                },
+                "avatar": {
+                    "$id": "#/properties/data/properties/avatar",
+                    "type": "string"
+                }
+            }
+        },
+        "ad": {
+            "$id": "#/properties/ad",
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+                "company",
+                "url",
+                "text"
+            ],
+            "properties": {
+                "company": {
+                    "$id": "#/properties/ad/properties/company",
+                    "type": "string"
+                },
+                "url": {
+                    "$id": "#/properties/ad/properties/url",
+                    "type": "string"
+                },
+                "text": {
+                    "$id": "#/properties/ad/properties/text",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
