@@ -38,9 +38,6 @@ $ npm run test-api -- --grep @tag                   | to run test with specific 
 $ npm run reports                                   | to generate mochawesome report
 ```
 
-### How does it work?
-For the detail explanation, please go [here](docs/details.md) !
-
 ### References:
 - https://medium.com/@fadlymahendra/api-test-automation-menggunakan-mocha-chai-22a78c48e842
 - https://blog.usejournal.com/https-medium-com-thisisabdus-automated-testing-with-mocha-beginners-guide-for-testing-javascript-apps-45aa67dc3352
