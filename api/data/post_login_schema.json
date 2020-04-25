@@ -1,0 +1,14 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "additionalProperties": true,
+    "required": [
+        "token"
+    ],
+    "properties": {
+        "token": {
+            "$id": "#/properties/token",
+            "type": "string"
+        }
+    }
+}
